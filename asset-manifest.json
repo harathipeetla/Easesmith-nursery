@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Easesmith-nursery/static/css/main.fe23dc88.css",
-    "main.js": "/Easesmith-nursery/static/js/main.3dbf275c.js",
+    "main.js": "/Easesmith-nursery/static/js/main.2af7f0cb.js",
     "static/js/453.7ecd6ff8.chunk.js": "/Easesmith-nursery/static/js/453.7ecd6ff8.chunk.js",
     "static/media/thankyou.jpg": "/Easesmith-nursery/static/media/thankyou.ba9451e67bf876135d21.jpg",
     "static/media/plant-1.png": "/Easesmith-nursery/static/media/plant-1.1647e452adb1f08fab0e.png",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/Easesmith-nursery/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Easesmith-nursery/index.html",
     "main.fe23dc88.css.map": "/Easesmith-nursery/static/css/main.fe23dc88.css.map",
-    "main.3dbf275c.js.map": "/Easesmith-nursery/static/js/main.3dbf275c.js.map",
+    "main.2af7f0cb.js.map": "/Easesmith-nursery/static/js/main.2af7f0cb.js.map",
     "453.7ecd6ff8.chunk.js.map": "/Easesmith-nursery/static/js/453.7ecd6ff8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe23dc88.css",
-    "static/js/main.3dbf275c.js"
+    "static/js/main.2af7f0cb.js"
   ]
 }
