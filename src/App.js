@@ -6,7 +6,7 @@ import "./App.css"
 function App() {
   return (
     <div className="app-container">
-    <BrowserRouter basename="/Easesmith-nursery">
+    <BrowserRouter>
      <Routes>
       <Route path="/" element={<PlantsList/>}/>
       <Route path="/thank-you/:productName" element ={<ThankYouPage/>}/>
