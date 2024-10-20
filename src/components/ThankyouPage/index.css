@@ -1,0 +1,19 @@
+.thankyou-page-container{
+    text-align: center;
+}
+
+.thank-you-image{
+    width: 450px;
+    height: 300px;
+}
+
+.thankyou-page-container h1{
+    font-size: 32px;
+    font-family:Inter;
+    color: #095788;
+}
+
+.product-name{
+    color: #165315;
+    text-decoration: underline;
+}

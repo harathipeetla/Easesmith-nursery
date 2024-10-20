@@ -1,0 +1,99 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+}
+
+.modal-content{
+    background: white;
+    width: 453px;
+    height: 661px;
+    left: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.modal-content .cart-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.modal-content .cart-part-1 h1{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+    color: #0F4811;
+    font-weight: 700;
+}
+
+.modal-content .cart-part-1 button{
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.cart-part-2{
+    display: flex;
+    align-items: center;
+    width:453px ;
+}
+
+.cart-part-2 .name-1{
+    z-index: 2;
+    padding-left: 5em;
+}
+
+.cart-part-2 .patch-1{
+    z-index: 1;
+    width: 70px;
+    height: 200px;
+}
+.modal-content p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #0F4811;
+    width: 422px;
+    height: 39px;
+    top: 411px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 700;
+}
+
+.cart-part-3{
+   flex-direction: column;
+    display: flex;
+    background-image: url('https://res.cloudinary.com/dzvtpzf6b/image/upload/v1729353644/Ellipse_40_zk4u5m.png');
+    background-repeat: no-repeat;
+    margin-top: 9em;
+    
+}
+
+.add-cart-modal{
+    width: 307px;
+    height: 45px;
+    top: 514px;
+    left: 73px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #0F4811;
+    color: #FFF;
+    border: none;
+    align-self: center;
+    margin-top: 8em;
+}
+

@@ -1,0 +1,40 @@
+.search-bar-container{
+    width: 420px;
+    border-bottom: 1px solid #00000099;
+    display: flex;
+}
+
+
+
+.search-input{
+width: 370px;
+height: 26px;
+top: 138px;
+left: 498px;
+gap: 0px;
+border: none;
+opacity: 0px;
+outline:none;
+
+
+}
+
+.search-icon{
+    width: 32.24px;
+    height: 25px;
+    top: 138px;
+    left: 839px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.plant-icon{
+    width: 32.24px;
+    height: 25px;
+    top: 138px;
+    left: 839px;
+    gap: 0px;
+    opacity: 0px;
+
+    
+}

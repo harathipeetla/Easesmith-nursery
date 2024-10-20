@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# PROJECT OVERVIEW:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based E-commerce Listing Page UI, built according to the
+provided Figma design. Th UI allows userd to view a list of products and either view a 
+"Thank You" Page upon selecting a product or add the product to the cart via a modal.
+The design includes pagination for product navigation, a search bar, profile and cart icons,
+and a responsive layout.
 
-## Available Scripts
+**# Approach Taken:**
 
-In the project directory, you can run:
+## 1. Componentization:
 
-### `npm start`
+### This application is devided into reusable components**
+*Header*     : Contains the header bar, nav bar
+*ProductCard* : disply individual product details like image, name, price, and action buttons.
+*CartModalPage* : Diaplays a pop according to the Figma design and a conformation and close buttons for the modal actions
+*ThankYouPage* : After cliking View Product button redirect to a thank you message with the according product name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2.Routing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Used React Router to manage navigation between the product listing page and custom "Thank you page"
 
-### `npm test`
+## 3.State Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Utilized React Hooks for managing component state, particularly forhandling the modal visibility, pagination functionality, 
+Search the products with their name.
 
-### `npm run build`
+## 4. Static Data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Used static data to simulate product listings. This data is ued to disply information handle pagination.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Challenges Faced
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Modal Implementaion:
+    Ensuring the modal behaves responsively acroos different screen sizes andopens properly when adding a product to the cart.
+### 2. Pagination:
+    Implementing pagination to handle static data efficienly while maintaining proper 
+    navigation between product pages.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# HOW TO RUN THE PROJECT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Prerequisites
+    Node.js installed on your system.
+#### Steps
+1. Clone the repository:
+        `git clone <respository-rul>`
 
-## Learn More
+2. Navigate into the project directory:
+        `cd <project-directory>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the dependencies
+        `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the project
+        `npm start`
+        
+5. Open the application in your browser
+        [http://localhost:300]
 
-### Code Splitting
+    
+# Features Implemented
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Header Section:
+    navbar with logo,profile, and cart icons
 
-### Analyzing the Bundle Size
+2. Product List Section:
+    Displays products with an image, name, price, and action buttons for "view product" and
+    "Add to cart"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Add To Cart Modal:
+    A modal opens when the user clicks the "Add to Cart" Button , displying 
+    the product details and a confirmation button.
 
-### Making a Progressive Web App
+4. Thank You Page:
+    after clicking "View Product", users are redirected to a custom "Thank you" page
+    that acknowledge their action.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# TECHNOLOGIES USED 
+=> React js
+=> React Router for navigation
+=> Static data for simulating listings.
+=> CSS for styling based on Figma design
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
