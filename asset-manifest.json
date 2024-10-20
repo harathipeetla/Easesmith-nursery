@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/easesmith-nursery/static/css/main.1a74e84c.css",
-    "main.js": "/easesmith-nursery/static/js/main.e273b2a7.js",
-    "static/js/453.7ecd6ff8.chunk.js": "/easesmith-nursery/static/js/453.7ecd6ff8.chunk.js",
-    "static/media/thankyou.jpg": "/easesmith-nursery/static/media/thankyou.ba9451e67bf876135d21.jpg",
-    "static/media/plant-1.png": "/easesmith-nursery/static/media/plant-1.1647e452adb1f08fab0e.png",
-    "static/media/plant-2.png": "/easesmith-nursery/static/media/plant-2.0c48add092abd0b5eec9.png",
-    "static/media/slider2.png": "/easesmith-nursery/static/media/slider2.8e7a056d99b515fd1ff5.png",
-    "static/media/slider3.png": "/easesmith-nursery/static/media/slider3.c050d70dda1a2fa677ae.png",
-    "static/media/slider1.png": "/easesmith-nursery/static/media/slider1.508950204e36cd7cf7a5.png",
-    "static/media/slider4.png": "/easesmith-nursery/static/media/slider4.c1ec918d9f530e6cbb21.png",
-    "static/media/plant-3.jpg": "/easesmith-nursery/static/media/plant-3.09d23ef4b8c73d28f308.jpg",
-    "static/media/slick.svg": "/easesmith-nursery/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/easesmith-nursery/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/easesmith-nursery/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/easesmith-nursery/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/easesmith-nursery/index.html",
-    "main.1a74e84c.css.map": "/easesmith-nursery/static/css/main.1a74e84c.css.map",
-    "main.e273b2a7.js.map": "/easesmith-nursery/static/js/main.e273b2a7.js.map",
-    "453.7ecd6ff8.chunk.js.map": "/easesmith-nursery/static/js/453.7ecd6ff8.chunk.js.map"
+    "main.css": "/Easesmith-nursery/static/css/main.fe23dc88.css",
+    "main.js": "/Easesmith-nursery/static/js/main.247b6dcf.js",
+    "static/js/453.7ecd6ff8.chunk.js": "/Easesmith-nursery/static/js/453.7ecd6ff8.chunk.js",
+    "static/media/thankyou.jpg": "/Easesmith-nursery/static/media/thankyou.ba9451e67bf876135d21.jpg",
+    "static/media/plant-1.png": "/Easesmith-nursery/static/media/plant-1.1647e452adb1f08fab0e.png",
+    "static/media/plant-2.png": "/Easesmith-nursery/static/media/plant-2.0c48add092abd0b5eec9.png",
+    "static/media/slider2.png": "/Easesmith-nursery/static/media/slider2.8e7a056d99b515fd1ff5.png",
+    "static/media/slider3.png": "/Easesmith-nursery/static/media/slider3.c050d70dda1a2fa677ae.png",
+    "static/media/slider1.png": "/Easesmith-nursery/static/media/slider1.508950204e36cd7cf7a5.png",
+    "static/media/slider4.png": "/Easesmith-nursery/static/media/slider4.c1ec918d9f530e6cbb21.png",
+    "static/media/plant-3.jpg": "/Easesmith-nursery/static/media/plant-3.09d23ef4b8c73d28f308.jpg",
+    "static/media/slick.svg": "/Easesmith-nursery/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Easesmith-nursery/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Easesmith-nursery/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Easesmith-nursery/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Easesmith-nursery/index.html",
+    "main.fe23dc88.css.map": "/Easesmith-nursery/static/css/main.fe23dc88.css.map",
+    "main.247b6dcf.js.map": "/Easesmith-nursery/static/js/main.247b6dcf.js.map",
+    "453.7ecd6ff8.chunk.js.map": "/Easesmith-nursery/static/js/453.7ecd6ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a74e84c.css",
-    "static/js/main.e273b2a7.js"
+    "static/css/main.fe23dc88.css",
+    "static/js/main.247b6dcf.js"
   ]
 }
