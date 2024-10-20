@@ -48,10 +48,10 @@ const PlantsList = () => {
                 <div className='sort-product-section-container'>
                    <span className='products-count'>{filteredProducts.length} Products</span>
                    <select className='filter-product-select'>
-                    <option><input type="checkbox"/>Size</option>
-                    <option><input type='checkbox'/>Polularity</option>
-                    <option><input type='checkbox'/>Price, Low-High</option>
-                    <option><input type='checkbox'/>Price, High-Low</option>
+                    <option>Size</option>
+                    <option>Polularity</option>
+                    <option>Price, Low-High</option>
+                    <option>Price, High-Low</option>
                    </select>
 
                 </div>
